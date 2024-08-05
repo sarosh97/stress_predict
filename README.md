@@ -22,6 +22,8 @@ The file named "load_wesad_data" is for loading the data.
 
 # Dataset-2 (UGI)
 
+Download the data at https://github.com/italha-d/Stress-Predict-Dataset
+
 You need to run three different files to extract features.
 "run_2_ext_feat_interview"  "run_2_ext_feat_relax" and "run_2_ext_feat_stroop" are three files that must be executed to extract features from all three phases of this study. You can adjust the window shift (should be same in all files) and then run the file named "run_2_loso_classify" for LOSO classification. Make sure to load the relevant features, for example, in case you have set 5 second shift during feature extraction then the feature set is named "features_relax_5.mat". Similarly, for the Stroop and Relax cases.
 
